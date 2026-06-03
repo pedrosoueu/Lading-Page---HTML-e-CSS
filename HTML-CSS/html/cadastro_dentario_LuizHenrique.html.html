@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro dentario</title>
+</head>
+<body>
+<h1>Consultório odontológico Sorriso Saudável&#x1F9B7;</h1>
+<br><br>
+<hr> 
+<h2>Bem vindo&#x1F44B;</h2>
+<p>Preencha o formulário abaixo para realizar seu cadastro em nosso consultório odontológico. </p>
+<h3>Serviços oferecidos</h3>
+
+<ul>
+    <li>&#x1F9B7;Limpesa dental</li>
+    <li>&#x1F9B7;Clareamento</li>
+    <li>&#x1F9B7;Ortodontia</li>
+    <li>&#x1F9B7;Implantes</li>
+</ul>
+<br><br>
+<hr> 
+<h1>Cadastro do Paciente&#x1FAAA;</h1>
+<h2>Dados pessoais&#x1FAAA;</h2>
+<form>
+    <label for="nome">&#x1F464;Nome:</label>
+        <input type="text" id="nome" required>
+    <br><br>
+    <label for="Data de nacimento">&#x1F464;Data de nacimento:</label>
+        <input type="date" id="Data de nacimento" required>
+    <br><br> 
+    <label for="CPF">&#x1F464;CPF:</label>
+        <input type="number" id="CPF" required>
+    <br><br>
+    <label for="telefone">&#x1F4DE;Telefone:</label>
+        <input type="number" id="telefone" required> 
+    <br><br>    
+    <label for="email">&#x2709;E-mail</label>
+        <input type="email" id="email" required>
+</form>
+<br><br>
+<hr> 
+<h2>Endereço&#x1F3E0;</h2>
+<form>
+           <label for="Rua">Rua:</label>
+        <input type="number" id="Rua" required>
+        <br><br>
+           <label for="Numero">Numero:</label>
+        <input type="number" id="Numero" required>
+        <br><br>
+         <label for="Cidade">Cidade:</label>
+        <input type="text" id="Cidade" required>
+        <br><br>
+        <label for="Estado">Estado</label>
+        <select id="Estado">
+            <option>SP</option>
+            <option>RJ</option>
+            <option>MG</option>
+            <option>MS</option>
+            <option>PA</option>
+        </select>
+</form>
+<br><br>
+<hr>
+<h1>Informações de Saúde</h1>
+<form>
+ <p>&#x1F912;Possui alguma doença?</p>
+        <input type="radio" name="doença">Sim&#x2705;
+        <br><br>
+        <input type="radio" name="doença">Não&#x274C;
+        <br><br>
+         <label for="Motivo">Se sim porque?:</label>
+        <input type="text" id="Motivo">
+<p>&#x1F48A;Faz uso de medicamentos?</p>
+        <input type="radio" name="doença">Sim&#x2705;
+        <br><br>
+        <input type="radio" name="doença">Não&#x274C;
+        <br><br>
+         <label for="Motivo">Alergias:</label>
+        <input type="text" id="Motivo">
+        
+</form>
+<br><br>
+<hr>
+<h1>Agendamento</h1>
+ <label for="Tipo">Tipo de atendimento</label>
+ <br><br>
+        <select id="Tipo" required>
+            <option>&#x1F9B7;Limpesa dental</option>
+            <option>&#x1F9B7;Clareamento</option>
+            <option>&#x1F9B7;Ortodontia</option>
+            <option>&#x1F9B7;Implantes</option>
+            
+        </select>
+        <br><br>
+         <label for="Data desejada">&#x1F4C5;Data desejada:</label>
+        <input type="date" id="Data desejada" required>
+        <br><br>
+        <p>Período:</p>
+        <input type="radio" name="Período">Manhã&#x2600;
+        <br>
+        <input type="radio" name="Período">Tarde&#x26C5;
+        <br>
+        <input type="radio" name="Período">Noite&#x1F319;
+<br><br>
+<hr>
+<p>Observações</p>
+<textarea name="Observações" rows="5" cols="40"></textarea><!--serve para criar uma caixa de Observações-->
+   <br><br>
+<button type="submit">Cadastrar&#x2705;</button>
+<button type="reset">Cancelar&#x274C;</button>
+<hr>
+<h1>Contato</h1>
+<p>&#x1F4DE;Telefone:+1(213)2345-678</p>
+<p>&#x2709;Email: contato@consultório.com</p>
+<p>&#x1F3E0;Endereço:Rua dos bobos, 0-Terra do nunca</p>
+<p>&copy;2026 Consultório odontológico Sorriso Saudável</p>
+</body>
+</html>

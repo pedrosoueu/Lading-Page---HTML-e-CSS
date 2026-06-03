@@ -1,0 +1,1 @@
+## olá professor, eu tomei a liberdade de criar uma segunda página, caso o cliente clique em "fazer pedido", ele será redirecionado a segunda página (index2.html), por isso, clique primeiro em "index.html".

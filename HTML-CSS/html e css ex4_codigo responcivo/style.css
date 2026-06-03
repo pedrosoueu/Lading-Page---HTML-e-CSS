@@ -1,0 +1,147 @@
+/* Estilo geral da pagina */
+
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:beige;
+    margin: 0;
+}
+
+/* Cabeçalho */
+
+.header{
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* ID do título */
+
+#titulo-site{
+    margin: 0;
+}
+
+/* Slogan */
+
+.slogan{
+    font-style: italic;
+}
+
+
+/* Container das notícias */
+
+.contender{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/*Layout geral (conteúdo + sidebar)*/
+.layout{
+display: flex;
+width: 80%;
+margin: auto;
+margin-top: 20px;
+gap: 20px;
+}
+
+/*Conteúdo principal*/
+.contender{
+    flex:3;
+}
+
+/* Sidebar */
+.sidebar{
+    flex:1;
+    background: white;
+   padding: 15px;
+   border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0,0.1);
+    
+}
+.sidebar h3{
+    border-bottom: 2px solid rgb(0, 102, 255);
+}
+.sidebar ul{
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li{
+    margin: 15px;
+}
+
+.sidebar ul li a{
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.sidebar ul li a:hover{
+    text-decoration: underline;
+}
+/* Estilos das notícia  */
+
+.notícia{
+    background: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0,0.1);
+}
+ 
+/* Imagem */
+
+.notícia img{
+    width: 100%;
+    border-radius: 5px;
+}
+/* Links */
+
+.notícia a{
+    display: inline-block;
+    margin-top: 10px;
+    color: white;
+    background-color: #007BFF;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+/* Pseudo-class hover */
+
+.notícia a:hover{
+    background-color: #0056b3;
+}
+
+/* Rodapé */
+
+footer{
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 200px;
+}
+
+/* Quando a tela for maior que 768px (px=pixels)
+viram 2 colunas (tablet)*/
+
+@media(min-width:768px){
+    .contender{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+/* Quando a tela for maior que 1024px (px=pixels)
+viram 3 colunas (desktop)*/
+
+@media(min-width:1024px){
+    .contender{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+.card img{
+    width: 100%;
+}

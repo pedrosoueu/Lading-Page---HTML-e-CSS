@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos e Cadastro</title>
+</head>
+<body>
+
+     <h1>Tabela de produtos</h1>
+    <table border="5"> 
+        <caption>Lista de produtos</caption><!--titulo da tabela-->
+       <thead>Tabela</thead>
+       
+    <tr><!--linha da tabela -->
+
+        <th>Produto</th><!-- cria uma celula de cabeçalho-->
+        <th>Preço</th>
+        <th>Quantidade</th>
+        <th>Categoria</th>
+    
+    </tr><!--linha da tabela -->
+<tbody> <!--insere conteudo da lista -->
+
+    <tr>
+
+<td>Notebook</td>
+<td>3500</td>
+<td>5</td>
+<td>Eletrônicos</td>
+    </tr>
+
+     <tr>
+
+<td>Mouse</td>
+<td>80</td>
+<td>20</td>
+<td>Informática</td>
+
+    </tr>
+
+     <tr>
+
+<td>Cadeira</td>
+<td>450</td>
+<td>8</td>
+<td>Móveis</td>
+
+    </tr>
+
+
+
+
+
+</tbody>
+</table>
+<br><br><!--indica dois espaços-->
+
+<h2>Cadastro de Produtos</h2>
+
+   
+<form> <!--indica o inicio do formulario -->
+    <label for="nome">Nome do produto:</label> <!--texto que indentifica o campo nome -->
+<input type="text"id="nome"requerid> <!--cria campo para digitar texto-->
+<!--type="text": campo de texto-->
+<!--id="nome": indentifica o campo-->
+<!--required: campo obrigatorio-->
+<br><br>
+ <label for="Preço">Preço do produto:</label> <!--texto que indentifica o campo Preço do produto -->
+<input type="number"id="Preço"requerid><!--cria campo para digitar Preço do produto-->
+
+<br><br>
+<label for="Quantidade">Quantidade do produto:</label><!--texto que indentifica o campo Quantidade do produto  -->
+<input type="munber"id="Quantidade"requerid><!--cria campo para digitar numero-->
+<br><br>
+
+<label for="data">Data de cadastro:</label><!--texto que indentifica o campo Quantidade do produto  -->
+<input type="munber"id="data"requerid><!--cria campo para digitar numero-->
+
+<br><br>
+<label for="Categoria">Categoria do produto:</label>
+<select id="Categoria"requerid> <!--cria um menu de opções-->
+
+<option>Eletrônicos</option><!--opções-->
+<option>Informática</option>
+<option>Móveis</option>
+<option>Outros</option>
+
+</select>
+
+<br><br>
+<button type="cadastrar">Cadastrar:</button> <!--cria um botão de cadastrar-->
+</form>
+    
+</body>
+</html>

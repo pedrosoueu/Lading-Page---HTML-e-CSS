@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Lista de alunos</h1>
+    <table border="3"> 
+        <caption>Alunos do curso</caption><!--titulo da tabela-->
+       
+       
+    <tr><!--linha da tabela -->
+
+        <th>Nome</th><!-- cria uma celula de cabeçalho-->
+        <th>Idade</th>
+        <th>Curso</th>
+    
+    
+    </tr><!--linha da tabela -->
+<tbody>
+
+    <tr>
+
+<td>Ana</td>
+<td>18</td>
+<td>DS</td>
+
+    </tr>
+
+     <tr>
+
+<td>Lucas</td>
+<td>17</td>
+<td>DG</td>
+
+    </tr>
+
+     <tr>
+
+<td>Moises</td>
+<td>20</td>
+<td>Bio</td>
+
+    </tr>
+
+
+
+
+
+</tbody>
+</table>
+<hr>
+<br><br><!--indica dois espaços-->
+
+<h2>Cadastro do aluno</h2>
+
+   
+<form> <!--indica o inicio do formulario -->
+    <label for="nome">Nome:</label> <!--texto que indentifica o campo nome -->
+<input type="text"id="nome"requerid> <!--cria campo para digitar texto-->
+<!--type="text": campo de texto-->
+<!--id="nome": indentifica o campo-->
+<!--required: campo obrigatorio-->
+<br><br>
+ <label for="email">Email:</label> <!--texto que indentifica o campo Email  -->
+<input type="email"id="email"requerid><!--cria campo para digitar Email-->
+
+<br><br>
+<label for="idade">Idade:</label><!--texto que indentifica o campo Idade -->
+<input type="munber"id="idade"requerid><!--cria campo para digitar numero-->
+<br><br>
+<label for="curso">Curso:</label>
+<select id="curso"> <!--cria um menu de opções-->
+
+<option>DS</option><!--opções-->
+<option>DG</option>
+<option>Bio</option>
+
+</select>
+<br><br>
+<button type="submit">Enviar:</button> <!--cria um botão de enviar-->
+</form>
+
+    
+</body>
+</html>

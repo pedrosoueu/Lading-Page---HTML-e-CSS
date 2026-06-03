@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lanchonete</title>
+    <link rel="icon" type="image/png" href="logo_lanchonete_do_luiz.png">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+ <main class="container">
+
+<body id="conteudo-site">
+    
+
+  
+    <h1 class="logo"><img src="logo_lanchonete_do_luiz.png" alt="Logo"></h1>
+   
+    <h2>Cardápio</h2>
+
+    <table border="2" class="tabela-estilizada">
+
+ 
+    <thead>
+        <tr>
+       <th>Produto</th>
+       <th>Descrição</th>
+       <th>Preço</th>
+       </tr>
+    </thead>
+
+
+ 
+    <tbody>
+        <tr>
+        <td>Hamburguer</td>
+        <td>Pão, carne e queijo</td>
+        <td>R$ 15,00</td>
+        </tr>
+        <tr>
+            <td>Pizza</td>
+            <td>Calabresa com queijo</td>
+            <td>R$ 25,00</td>
+        </tr>
+        <tr>
+            <td>Batata frita</td>
+            <td>Porção media</td>
+            <td>R$ 10,00</td>
+        </tr>
+        <tr>
+            <td>Refrigerante</td>
+            <td>Lata 350ml</td>
+            <td>R$ 6,00</td>
+        </tr>
+        <tr>
+            <td>Milkshake</td>
+            <td>Chocolate ou morango</td>
+            <td>R$ 12,00</td>
+        </tr>
+    </tbody>
+    </table>
+
+
+ 
+
+   <h2>Fazer Pedido</h2>
+
+<form action="index2.html">
+
+    <label for="nome">Nome</label>
+    <input type="text" id="nome" required>
+
+    <label for="telefone">Telefone</label>
+    <input type="number" id="telefone" required>
+
+    <label for="produto">Escolha o produto</label>
+        <select id="produto" required>
+        <option value="">Selecione</option>
+        <option>Hamburguer</option>
+        <option>Pizza</option>
+        <option>Batata frita</option>
+        <option>Refrigerente</option>
+        <option>Milkshake</option>
+    </select>
+
+    <article class="checkbox-group">
+        <p>Extras:</p>
+        <input type="checkbox"> Queijo Extra<br>
+        <input type="checkbox"> Bacon<br>
+        <input type="checkbox"> Molho Especial<br>
+
+        <p>Tipo de pedido:</p>
+        <input type="radio" name="entrega" required> Retirar no balcão<br>
+        <input type="radio" name="entrega" required> Delivery<br>
+    </article>
+
+    <button type="submit" class="btn">Fazer pedido</button>
+    <button type="reset" class="btn">Cancelar</button>
+
+</form>
+     
+    
+    
+    
+      </main>
+      <footer class="direitos-autorais">
+    &copy;2026 Lanchonete do Luiz | Todos os direitos reservados
+   </footer>
+</body>
+</html>
